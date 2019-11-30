@@ -76,10 +76,10 @@ public class A2BankAccountClass78 {
 	}
 	public void withdrawl(double amount) {
 		if(this.balance - amount < 0) {
-			System.out.println("Only " + balance + " available withdrawl not processed");
+			System.out.println("Only " + balance + " available withdrawal not processed");
 		}else {
 			balance -= amount;
-			System.out.println("Withdrawl of " + amount + " processed. Remaining balance is " + balance);
+			System.out.println("withdrawal of " + amount + " processed. Remaining balance is " + balance);
 		}
 //		if(amount > 0 || amount >= balance)
 //			balance -= amount;
